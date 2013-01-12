@@ -1,0 +1,147 @@
+/*
+Sosa Icon Font CSS
+==================
+Author: Jaime Caballero
+Source: https://github.com/jaicab/Sosa-Icon-Font-CSS
+Credits: All the credit for the font goes to Ed Merrit from TenByTwenty.
+URL: http://www.tenbytwenty.com/sosa.php
+*/
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Sosa';
+    src: url('font/sosa.eot');
+    src: url('font/sosa.eot?#iefix') format('embedded-opentype'),
+         url('font/sosa.ttf') format('truetype'),
+         url('font/sosa.svg#sosa') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="sosa-"]:before, [class*=" sosa-"]:before {
+	display:inline-block;
+	font-family:'Sosa', sans-serif;
+}
+
+.sosa-exclamation:before	{content:'!';}
+.sosa-dollar:before			{content:'$';}
+.sosa-mobile:before			{content:'/';}
+.sosa-headphones:before		{content:'0';}
+.sosa-camera_photo:before	{content:'1';}
+.sosa-camera_video:before	{content:'2';}
+.sosa-printer:before		{content:'3';}
+.sosa-landphone:before		{content:'4';}
+.sosa-iphone:before			{content:'5';}
+.sosa-ipad:before			{content:'6';}
+.sosa-macbook:before		{content:'7';}
+.sosa-imac:before			{content:'8';}
+.sosa-micro:before			{content:'9';}
+.sosa-tv:before				{content:':';}
+.sosa-radio:before			{content:';';}
+.sosa-tone:before			{content:'<';}
+.sosa-tetris:before			{content:'=';}
+.sosa-gamepad:before		{content:'>';}
+.sosa-question:before		{content:'?';}
+.sosa-video:before			{content:'@';}
+.sosa-photo:before			{content:'A';}
+.sosa-quote_left:before		{content:'B';}
+.sosa-quote_right:before	{content:'C';}
+.sosa-code:before			{content:'D';}
+.sosa-stats_1:before		{content:'E';}
+.sosa-stats_2:before		{content:'F';}
+.sosa-stats_3:before		{content:'G';}
+.sosa-polaroid:before		{content:'H';}
+.sosa-car:before			{content:'J';}
+.sosa-truck:before			{content:'K';}
+.sosa-bicycle:before		{content:'L';}
+.sosa-moto:before			{content:'M';}
+.sosa-play:before			{content:'D';}
+.sosa-play:before			{content:'N';}
+.sosa-pause:before			{content:'O';}
+.sosa-stop:before			{content:'P';}
+.sosa-play_next:before		{content:'Q';}
+.sosa-play_prev:before		{content:'R';}
+.sosa-foward:before			{content:'S';}
+.sosa-rewind:before			{content:'T';}
+.sosa-loop:before			{content:'U';}
+.sosa-tool:before			{content:'V';}
+.sosa-gear:before			{content:'W';}
+.sosa-gear_alt:before		{content:'X';}
+.sosa-gears:before			{content:'Y';}
+.sosa-chess:before			{content:'Z';}
+.sosa-clock:before			{content:'[';}
+.sosa-mag_left:before		{content:'\\';}
+.sosa-mag_right:before		{content:']';}
+.sosa-mag_more:before		{content:'^';}
+.sosa-mag_less:before		{content:'_';}
+.sosa-pencil_big:before		{content:'`';}
+.sosa-pencil:before			{content:'a';}
+.sosa-clip:before			{content:'b';}
+.sosa-heart:before			{content:'c';}
+.sosa-heart_alt:before		{content:'d';}
+.sosa-star:before			{content:'e';}
+.sosa-star_alt:before		{content:'f';}
+.sosa-comment:before		{content:'g';}
+.sosa-chat:before			{content:'h';}
+.sosa-info:before			{content:'i';}
+.sosa-flag:before			{content:'j';}
+.sosa-tag:before			{content:'k';}
+.sosa-tags:before			{content:'l';}
+.sosa-ribbon:before			{content:'m';}
+.sosa-maps_full:before		{content:'n';}
+.sosa-maps:before			{content:'o';}
+.sosa-share:before			{content:'p';}
+.sosa-social:before			{content:'q';}
+.sosa-rss:before			{content:'r';}
+.sosa-podcast:before		{content:'s';}
+.sosa-twitter:before		{content:'t';}
+.sosa-twitter_alt:before	{content:'u';}
+.sosa-facebook:before		{content:'v';}
+.sosa-flickr:before			{content:'w';}
+.sosa-vimeo:before			{content:'x';}
+.sosa-update:before			{content:'y';}
+.sosa-refresh:before		{content:'z';}
+.sosa-plus:before			{content:'{';}
+.sosa-minus:before			{content:'|';}
+.sosa-divide:before			{content:'}';}
+.sosa-multiply:before		{content:'~';}
+.sosa-shop:before			{content:'Ä';}
+.sosa-shop_alt:before		{content:'Å';}
+.sosa-home:before			{content:'Ç';}
+.sosa-mail:before			{content:'É';}
+.sosa-mail_open:before		{content:'Ñ';}
+.sosa-mail_open_alt:before	{content:'Ö';}
+.sosa-user:before			{content:'Ü';}
+.sosa-users:before			{content:'á';}
+.sosa-input:before			{content:'à';}
+.sosa-output:before			{content:'â';}
+.sosa-link:before			{content:'ä';}
+.sosa-error:before			{content:'ã';}
+.sosa-success:before		{content:'å';}
+.sosa-trash:before			{content:'ç';}
+.sosa-file:before			{content:'é';}
+.sosa-lock:before			{content:'è';}
+.sosa-unlock:before			{content:'ê';}
+.sosa-folder:before			{content:'ë';}
+.sosa-up_alt:before			{content:'í';}
+.sosa-down_alt:before		{content:'ì';}
+.sosa-up:before				{content:'î';}
+.sosa-down:before			{content:'ï';}
+.sosa-right:before			{content:'ñ';}
+.sosa-left:before			{content:'ó';}
+.sosa-bright:before			{content:'ò';}
+.sosa-cloud:before			{content:'ô';}
+.sosa-cloudy:before			{content:'ö';}
+.sosa-rain:before			{content:'õ';}
+.sosa-storm:before			{content:'ú';}
+.sosa-snow:before			{content:'ù';}
+.sosa-snow_alt:before		{content:'û';}
+.sosa-download_alt:before	{content:'ü';}
+.sosa-cross:before			{content:'†';}
+.sosa-musicloud:before		{content:'°';}
+.sosa-pound:before			{content:'£';}
+.sosa-euro:before			{content:'€';}
+.sosa-left_alt:before		{content:'‹';}
+.sosa-right_alt:before		{content:'›';}
+.sosa-logo:before			{content:'ﬁ';}
+.sosa-logo_alt:before		{content:'ﬂ';}
