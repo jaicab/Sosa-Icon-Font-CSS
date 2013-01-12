@@ -13,6 +13,9 @@ Start by linking the style.min.css file to your html head.
 Remember: The font folder and style.min.css file must be both on the same folder.
 
 Then simply create a span with the class of the icon you like. You can check the classes in the index.html file.
+```html
+<span class="sosa-iphone"></span>
+```
 
 License
 -------
