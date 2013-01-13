@@ -3,6 +3,7 @@ Sosa-Icon-Font-CSS
 
 A CSS file for Sosa Icon Font. 
 All the credit for the font goes to Ed Merrit from TenByTwenty (http://www.tenbytwenty.com/sosa.php).
+Check out the classes at http://jaicab.github.com/Sosa-Icon-Font-CSS/ or the `index.html` file included.
 
 How does it work? 
 -----------------
@@ -12,7 +13,7 @@ Start by linking the `style.min.css` file to your html head.
 ```
 Remember: The font folder and `style.min.css` file must be both on the same folder.
 
-Then simply create a span with the class of the icon you like. You can check the classes in the `index.html` file.
+Then simply create a span with the class of the icon you like.
 ```html
 <span class="sosa-iphone"></span>
 ```
